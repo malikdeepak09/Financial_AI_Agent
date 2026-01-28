@@ -1,8 +1,9 @@
+streamlit
+agno==2.4.6
+yfinance>=0.2.53
 python-dotenv
-agno
-duckduckgo-search
-yfinance
 anthropic
 openai
-streamlit
-pytest
+requests
+ddgs
+pandas
