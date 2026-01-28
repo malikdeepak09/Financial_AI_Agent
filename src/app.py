@@ -235,7 +235,7 @@ def main():
     with st.sidebar:
         model_choice = st.radio(
             "Model",
-            ["claude-sonnet-4-5", "gpt-5.2"],
+            ["gpt-5.2", "claude-sonnet-4-5" ],
             index=0
         )
 
