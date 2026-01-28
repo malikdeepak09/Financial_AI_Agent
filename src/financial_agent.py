@@ -52,7 +52,7 @@ FINANCIAL_KEYWORDS = [
     "trading", "nasdaq", "dow", "s&p", "etf", "fund",
     "earnings", "revenue", "profit", "loss", "ipo",
     "economy", "inflation", "interest rate", "fed",
-    "valuation", "analysis", "news"
+    "valuation", "analysis", "news", "compare"
 ]
 
 def is_financial_query(query: str) -> bool:
