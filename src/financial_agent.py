@@ -47,13 +47,106 @@ ASSET_MAPPING = {
 # --------------------------------------------------
 
 FINANCIAL_KEYWORDS = [
-    "stock", "stocks", "share", "price", "market", "markets",
-    "crypto", "bitcoin", "ethereum", "investment", "invest",
-    "trading", "nasdaq", "dow", "s&p", "etf", "fund",
-    "earnings", "revenue", "profit", "loss", "ipo",
-    "economy", "inflation", "interest rate", "fed",
-    "valuation", "analysis", "news", "compare"
+    # Stocks & Equity
+    "stock", "stocks", "share", "shares", "equity", "equities",
+    "ticker", "tickers", "blue chip", "small cap", "mid cap", "large cap",
+    "market cap", "capitalization", "float", "outstanding shares",
+    "dividend", "dividends", "dividend yield",
+    "52 week high", "52 week low", "stock split", "reverse split",
+
+    # Price & Valuation
+    "price", "value", "valuation", "worth", "fair value",
+    "overvalued", "undervalued", "cheap", "expensive",
+    "target price", "price target", "entry", "exit",
+    "premium", "discount",
+
+    # Financial Metrics & Ratios
+    "pe", "p/e", "peg", "pb", "p/b",
+    "eps", "ebitda", "ebit",
+    "gross margin", "operating margin", "net margin",
+    "roe", "roa", "roic",
+    "cash flow", "free cash flow", "fcf",
+    "debt", "net debt", "leverage",
+
+    # Earnings & Company Performance
+    "earnings", "revenue", "profit", "loss",
+    "guidance", "earnings call",
+    "quarter", "q1", "q2", "q3", "q4",
+    "growth", "decline",
+
+    # Trading & Technical Analysis
+    "trading", "buy", "sell", "hold",
+    "support", "resistance",
+    "trend", "breakout", "breakdown",
+    "volume", "volatility",
+    "chart", "technical analysis",
+    "moving average", "rsi", "macd",
+    "stop loss", "target",
+
+    # Investing & Portfolio
+    "investment", "invest", "investing",
+    "portfolio", "allocation", "rebalancing",
+    "diversification", "risk",
+    "return", "returns", "yield",
+    "long term", "short term",
+    "lump sum", "sip",
+
+    # Funds & ETFs
+    "etf", "etfs", "fund", "funds",
+    "mutual fund", "index fund",
+    "expense ratio", "aum",
+
+    # Bonds & Fixed Income
+    "bond", "bonds",
+    "yield to maturity", "ytm",
+    "coupon", "maturity",
+    "credit rating",
+    "sovereign bond", "corporate bond",
+
+    # Markets & Indices
+    "market", "markets",
+    "nasdaq", "dow", "s&p",
+    "bull market", "bear market",
+    "correction", "crash",
+    "global markets", "emerging markets",
+
+    # Economy & Macro
+    "economy", "economic",
+    "inflation", "interest rate", "interest rates",
+    "fed", "central bank",
+    "rate hike", "rate cut",
+    "gdp", "cpi", "ppi",
+    "recession", "slowdown",
+
+    # IPOs & Corporate Actions
+    "ipo", "listing",
+    "merger", "acquisition", "m&a",
+    "buyback", "share buyback",
+    "insider trading",
+    "sec filing", "10k", "10q",
+
+    # Crypto & Web3
+    "crypto", "cryptocurrency",
+    "bitcoin", "ethereum", "altcoin", "altcoins",
+    "token", "tokens",
+    "blockchain", "defi", "nft",
+    "staking", "mining",
+    "wallet", "stablecoin",
+    "hashrate", "gas fees",
+
+    # News & Analysis
+    "analysis", "forecast", "outlook",
+    "news", "compare",
+
+    # Natural Language / User Intent
+    "should i buy", "should i sell",
+    "is it good", "is it bad",
+    "is it safe", "is it risky",
+    "good investment",
+    "best stock", "top stocks",
+    "future of"
 ]
+
 
 def is_financial_query(query: str) -> bool:
     q = query.lower()
