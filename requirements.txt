@@ -1,3 +1,5 @@
+# App Requirements for Financial Agent
+
 streamlit
 agno==2.4.6
 yfinance>=0.2.53
@@ -7,3 +9,27 @@ openai
 requests
 ddgs
 pandas
+
+
+# Testing Requirements for Financial Agent
+
+# Core testing framework
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-asyncio==0.21.1
+
+# Mocking and fixtures
+responses==0.24.1
+freezegun==1.4.0
+
+# Code quality
+pytest-flake8==1.1.1
+pytest-pylint==0.21.0
+
+# Test reporting
+pytest-html==4.1.1
+pytest-xdist==3.5.0  
+
+
+coverage==7.3.4
